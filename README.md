@@ -34,8 +34,7 @@ In today’s digital era, online restaurant reviews from any platforms play a cr
 🔢 ANALYSIS PROCESS 🔢
 
 🧹 Data Cleaning 🧹
-1. Check for Missing Values
-   
+1. Check for Missing Values 
 This loop goes through each column in the dataset. It prints the number of missing (null) values for each column. 
 
 2. Detect and Remove Duplicate Rows
