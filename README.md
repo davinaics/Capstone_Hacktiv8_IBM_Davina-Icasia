@@ -2,7 +2,8 @@
 Capstone Project – Hacktiv8 x IBM | by Davina Icasia
 
 📌 PROJECT OVERVIEW
-= Project Objective 🎯 =
+
+Project Objective 🎯
 1. Automatically analyze restaurant customer reviews using the IBM Granite Large Language Model (LLM).
 2. Classify each review into sentiment categories: Positive, Negative, or Mixed.
 3. Identify key aspects frequently mentioned by customers, such as food, service, price, and cleanliness.
