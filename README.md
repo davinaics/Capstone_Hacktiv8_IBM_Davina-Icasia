@@ -35,6 +35,7 @@ In today’s digital era, online restaurant reviews from any platforms play a cr
 
 🧹 Data Cleaning 🧹
 1. Check for Missing Values 
+
 This loop goes through each column in the dataset. It prints the number of missing (null) values for each column. 
 
 2. Detect and Remove Duplicate Rows
@@ -51,24 +52,31 @@ To standardize the text, multiple whitespace characters are replaced with a sing
 1. Instalation and Setup
    
 Required libraries are installed and the IBM Granite model is set up via Replicate to enable LLM based analysis. 
+
 2. Load Clean Dataset
 
 The cleaned dataset is then loaded to prepare for sentiment classification and summarization
+
 3. Select 3 Random Reviews
 
 This code selects three random non null reviews from the dataset to ensure clean input for analysis. Each review is then formatted with a numbered label and joined with line breaks, preparing it for use in the prompt sent to the language model.
+
 4. Generating Basic & Refined Prompts
 
 The model is prompted to classify reviews by sentiment, with the refined prompt also extracting key aspects like food, service, price, and cleanliness.
+
 5. Generating Multitask Prompt
 
 The multitask prompt asks the model to classify sentiment and identify key aspects in a structured two step format.
+
 6. Generating Formatted Prompt
 
 The formatted prompt instructs the model to classify sentiment and extract aspects using a clear, structured output format for easier interpretation.
+
 7. Select 8 Random Reviews
 
 Eight random non null reviews are selected and formatted as bullet points to prepare input for the next analysis step.
+
 8. Generating Structured Prompt
 
 A structured prompt is used to generate a summarized analysis of the reviews, including key feedback, overall sentiment, and suggestions for improvement
@@ -79,21 +87,27 @@ A structured prompt is used to generate a summarized analysis of the reviews, in
 1. Select 5 Random Reviews
    
 Five random non null reviews are selected from the dataset and formatted with bullet points and newline characters to prepare them for prompt input.
+
 2. Generating Classification Prompt
 
 This prompt instructs the model to classify each restaurant review by sentiment and identify key aspects such as food, service, price, and cleanliness.
+
 3. Generating Summarization Prompt
 
 A summarization prompt is designed to extract key feedback, overall sentiment, and improvement suggestions from the selected restaurant reviews.
+
 4. Setting Default Parameters
 
 A set of default generation parameters is defined to control the model’s response behavior, including token limits, sampling strategy, and repetition penalty.
+
 5. Exploring Parameter Sets
 
 Multiple parameter sets are defined to experiment with different model generation behaviors and observe how output quality changes with variations in sampling and token limits.
+
 6. Run Classification Prompt with Different Parameters
 
 The classification prompt is run using each parameter set to compare how different configurations affect the model’s sentiment and aspect classification output.
+
 7. Run Summarization Prompt with Different Parameters
 
 The summarization prompt is executed with each parameter set to observe how different settings affect the quality and depth of the model’s summary output.
@@ -106,15 +120,19 @@ The summarization prompt is executed with each parameter set to observe how diff
 1. Generating Basic Prompt
    
 The basic prompt correctly classified the reviews: 2 as positive and 1 as negative. The positive reviews show satisfaction and intent to return, while the negative review criticizes a specific server.
+
 2. Generating Refined Prompt
 
 The refined prompt not only classified sentiment but also identified aspects. One review was linked to the service aspect (negative), while the others were positive with no specific aspects mentioned, assumed to reflect overall satisfaction.
+
 3. Generating Multitask Prompt
 
 The multitask prompt accurately classified sentiments and identified service in the negative review, while the positive ones reflected general satisfaction without specific aspects.
+
 4. Generating Formatted Prompt
 
 The formatted prompt clearly links each sentiment to specific aspects, identifying service in the negative review and overall experience or intent to return in the positive ones.
+
 5. Generating Structured Prompt
 
 The structured prompt output highlights negative sentiment, mainly due to bland food, poor service, and cost cutting complaints. It suggests improving food flavor, staff professionalism, and customer experience details like packaging.
