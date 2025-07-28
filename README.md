@@ -10,6 +10,7 @@ Capstone Project – Hacktiv8 x IBM | by Davina Icasia
 4. Generate summarized insights and actionable suggestions to help restaurant owners enhance customer experience.
 
 🧠 Background 🧠
+
 In today’s digital era, online restaurant reviews from any platforms play a crucial role in shaping public perception and customer purchasing decisions. These reviews contain not only expressions of customer satisfaction but also valuable insights regarding service quality, food, pricing, and cleanliness directly from the customer’s perspective. However, the unstructured nature and massive volume of these reviews make it difficult for business owners and analysts to extract insights effectively and objectively. This calls for an AI driven approach to automate the analysis of sentiment and extract key themes from customer feedback.
 
 ❗ Specific Problems ❗
@@ -24,7 +25,6 @@ In today’s digital era, online restaurant reviews from any platforms play a cr
 3. Model Used: Granite-3.3-8B-Instruct by IBM, accessed via Replicate API.
 
 📊 DATASET DESCRIPTION 📊
-
 1. Total columns: 2 columns
 - Review
 - Liked
@@ -115,6 +115,7 @@ The summary reflects mixed sentiment, with praise for food and service, but conc
 📃 CONCLUSION & RECOMMENDATION ✅
 
 📃 Conclusion 📃
+
 Through a series of prompt engineering experiments using the IBM Granite model, this project successfully demonstrated how sentiment classification and aspect extraction can be performed on restaurant reviews with varying levels of detail and structure. 
 
 Lab 1 explored prompt formats basic, refined, multitask, and structured which progressively improved output clarity and aspect relevance.
@@ -122,6 +123,7 @@ Lab 1 explored prompt formats basic, refined, multitask, and structured which pr
 Lab 2 further evaluated how different generation parameters impact the model’s performance, showing that tuning settings like top_k, top_p, and max_tokens can significantly affect the quality of the classification and summarization results
 
 ✅ Recommendation ✅
+
 Restaurants are encouraged to leverage the IBM Granite model to:
 1. Automatically analyze customer reviews and identify recurring issues such as poor service.
 2. Extract actionable insights related to key aspects like food, service, price, and cleanliness.
@@ -129,6 +131,7 @@ Restaurants are encouraged to leverage the IBM Granite model to:
 4. Guide staff training using specific customer feedback patterns.
 
 🤖 AI SUPPORT EXPLANATION 🤖
+
 In this project, AI specifically the IBM Granite large language model is used to automate restaurant review analysis through sentiment classification, aspect extraction, and summarization. By leveraging its natural language understanding capabilities, the model interprets unstructured review texts and provides structured insights on key aspects such as food, service, price, and cleanliness. Through prompt engineering and parameter tuning, IBM Granite can be guided to deliver both concise classifications and detailed summaries, making it adaptable to various analytical needs and offering actionable feedback for business improvement.
 
 
