@@ -37,9 +37,11 @@ In today’s digital era, online restaurant reviews from any platforms play a cr
 1. Check for Missing Values
    
 This loop goes through each column in the dataset. It prints the number of missing (null) values for each column. 
+
 2. Detect and Remove Duplicate Rows
 
 This line checks how many duplicate rows exist in the dataset. After that, this command removes all duplicate rows from the dataset. Then, the duplicate check is run again to confirm that all duplicates have been successfully removed.
+
 3. Clean Unnecessary Characters in Text
 
 To standardize the text, multiple whitespace characters are replaced with a single space using regex (\s+), and any leading or trailing spaces are removed using .strip(). After cleaning the text, the dataset is saved as a new file named Dataset_Bersih_RestaurantReview.csv for further analysis.
