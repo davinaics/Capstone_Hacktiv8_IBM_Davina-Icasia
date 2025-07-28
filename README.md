@@ -97,19 +97,25 @@ The structured prompt output highlights negative sentiment, mainly due to bland 
 
 🧪 Lab 2 🧪 
 1. Generating Classification Prompt
-   - Parameter Set 1
+- Parameter Set 1
+  
 The prompt classified reviews accurately, with service as the main issue in negative reviews and food in positives. One review was mixed, leaning negative due to overall dissatisfaction.
-   - Parameter Set 2
+- Parameter Set 2
+  
 The model consistently classified sentiments and aspects, with service again being the main issue in negative reviews and food praised in positives. The fifth review shows overall dissatisfaction, suggesting multiple problem areas despite lacking specific details.
-   - Parameter Set 3
+- Parameter Set 3
+  
 The model gave consistent results, identifying service in negative reviews and food in positives. One review reflected overall dissatisfaction, though specific aspects like price or cleanliness weren’t mentioned.
 
 2. Generating Summarization Prompt
-   - Parameter Set 1
+- Parameter Set 1
+  
 The summary highlights positive feedback on food and service, especially the pulled pork, but also notes recurring complaints about slow water refills. Overall sentiment is mixed, and improvement suggestions focus on better service consistency and addressing refill delays.
-   - Parameter Set 2
+- Parameter Set 2
+  
 The summary shows mixed sentiment, with praise for food quality, especially the pulled pork, but complaints about slow water refills and service inconsistency. Suggestions focus on improving attentiveness, maintaining food standards, and encouraging better service to support tipping.
-   - Parameter Set 3
+- Parameter Set 3
+     
 The summary reflects mixed sentiment, with praise for food and service, but concerns about slow water refills and poor staff attentiveness. Suggestions include improving refill responsiveness, staff training, and addressing negative service perceptions to enhance customer experience.
 
 📃 CONCLUSION & RECOMMENDATION ✅
