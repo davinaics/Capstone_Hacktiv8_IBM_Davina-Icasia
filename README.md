@@ -160,24 +160,47 @@ The summary shows mixed sentiment, with praise for food quality, especially the 
      
 The summary reflects mixed sentiment, with praise for food and service, but concerns about slow water refills and poor staff attentiveness. Suggestions include improving refill responsiveness, staff training, and addressing negative service perceptions to enhance customer experience.
 
+🔍 Interpretation 🔍
+1. Service aspect is the most frequently criticized issue
+
+Many negative reviews highlight problems with service, such as delayed water refills, lack of staff attentiveness, and unprofessional behavior.
+
+Why is this important? Because service is a core part of the customer experience. Repeated complaints indicate the need for staff training and improvements in standard operating procedures to increase customer satisfaction.
+
+2. Generating Structured Prompt
+
+Positive reviews reflect customer satisfaction with the taste, presentation, and portion size of the food.
+
+Why is this important? This represents a key strength of the restaurant. Maintaining consistent food quality is crucial for preserving reputation and encouraging customer loyalty.
+
+3. Some reviews show mixed sentiment
+
+Some customers enjoyed the food, but their overall experience was negative due to poor service.
+
+Why is this important? It shows that customer satisfaction is influenced not only by food, but also by other factors such as service, price, and cleanliness. All aspects must be managed consistently to deliver a complete and positive dining experience.
+
+📊 Visualization 📊
+
+The visualization shows the result of sentiment classification on restaurant reviews using the IBM Granite model with a basic prompt approach. All reviews in the dataset were automatically analyzed and categorized into three sentiment labels: Positive, Negative, and Mixed. The outcome indicates that most reviews are almost evenly distributed between positive and negative, while mixed reviews are significantly fewer, suggesting that customer opinions are generally clear. This process provides a fast and objective way to understand overall customer perception.
+
 📃 CONCLUSION & RECOMMENDATION ✅
 
 📃 Conclusion 📃
 
-Through a series of prompt engineering experiments using the IBM Granite model, this project successfully demonstrated how sentiment classification and aspect extraction can be performed on restaurant reviews with varying levels of detail and structure. Lab 1 explored prompt formats basic, refined, multitask, and structured which progressively improved output clarity and aspect relevance.  Lab 2 further evaluated how different generation parameters impact the model’s performance, showing that tuning settings like top_k, top_p, and max_tokens can significantly affect the quality of the classification and summarization results
+Through a series of prompt engineering experiments using the IBM Granite model, this project demonstrated how sentiment classification and aspect extraction can be applied to restaurant reviews with varying levels of detail and structure.
+
+Lab 1 explored prompt formats (basic, refined, multitask, formatted, and structured) which progressively improved output clarity and aspect relevance.
+
+Lab 2 examined how different generation parameters (top_k, top_p, max_tokens) affect model performance, showing their impact on classification and summarization quality.
+
+Additionally, a bar chart was generated to visualize the overall distribution of sentiment classifications (Positive, Negative, Mixed) using the basic prompt, providing a clear overview of customer sentiment across the dataset.
 
 ✅ Recommendation ✅
 
-Restaurants are encouraged to leverage the IBM Granite model to:
-1. Automatically analyze customer reviews and identify recurring issues such as poor service.
-2. Extract actionable insights related to key aspects like food, service, price, and cleanliness.
-3. Improve service quality and consistency based on real time sentiment analysis results.
-4. Guide staff training using specific customer feedback patterns.
-
+1. Improve service quality through better staff training and clear SOPs
+2. Maintain and promote consistency in food quality
+3. Conduct comprehensive monitoring of all service aspects not just food
+   
 🤖 AI SUPPORT EXPLANATION 🤖
 
 In this project, AI specifically the IBM Granite large language model is used to automate restaurant review analysis through sentiment classification, aspect extraction, and summarization. By leveraging its natural language understanding capabilities, the model interprets unstructured review texts and provides structured insights on key aspects such as food, service, price, and cleanliness. Through prompt engineering and parameter tuning, IBM Granite can be guided to deliver both concise classifications and detailed summaries, making it adaptable to various analytical needs and offering actionable feedback for business improvement.
-
-
-
-
