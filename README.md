@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Review Analysis with IBM Granite 🍽️
+# 🍽️ Restaurant Review Analysis with IBM Granite 
 Capstone Project – Hacktiv8 x IBM SkillsBuild| by Davina Icasia
 
 ---
