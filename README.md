@@ -31,6 +31,8 @@ In today’s digital era, online restaurant reviews from any platforms play a cr
 2. Total rows: 1000 rows
 3. Link Kaggle: https://www.kaggle.com/datasets/vigneshwarsofficial/reviews?resource=download
 
+---
+
 ## 🔢 ANALYSIS PROCESS 
 
 ### 🧹 Data Cleaning 
@@ -114,6 +116,8 @@ The summarization prompt is executed with each parameter set to observe how diff
 
 "These steps (1-7) aim to test how different parameter settings impact the quality of classification and summarization outputs using the IBM Granite model."
 
+---
+
 ## 💡 INSIGHTS & FINDINGS 
 
 ### 🧪 Lab 1 
@@ -182,6 +186,8 @@ Why is this important? It shows that customer satisfaction is influenced not onl
 ### 📊 Visualization 
 
 The visualization shows the result of sentiment classification on restaurant reviews using the IBM Granite model with a basic prompt approach. All reviews in the dataset were automatically analyzed and categorized into three sentiment labels: Positive, Negative, and Mixed. The outcome indicates that most reviews are almost evenly distributed between positive and negative, while mixed reviews are significantly fewer, suggesting that customer opinions are generally clear. This process provides a fast and objective way to understand overall customer perception.
+
+---
 
 ## 📃 CONCLUSION & RECOMMENDATION 
 
