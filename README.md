@@ -1,5 +1,5 @@
 # 🍽️ Restaurant Review Analysis with IBM Granite 🍽️
-Capstone Project – Hacktiv8 x IBM | by Davina Icasia
+Capstone Project – Hacktiv8 x IBM SkillsBuild| by Davina Icasia
 
 ---
 
