@@ -1,6 +1,8 @@
 # 🍽️ Restaurant Review Analysis with IBM Granite 🍽️
 Capstone Project – Hacktiv8 x IBM | by Davina Icasia
 
+---
+
 ## 📌 PROJECT OVERVIEW 
 
 ### 🎯 Project Objective 
@@ -23,6 +25,8 @@ In today’s digital era, online restaurant reviews from any platforms play a cr
 1. Data Cleaning
 2. Prompt Engineering with IBM Granite (Classification and Summarization)
 3. Model Used: Granite-3.3-8B-Instruct by IBM, accessed via Replicate API.
+
+---
 
 ## 📊 DATASET DESCRIPTION 
 1. Total columns: 2 columns
