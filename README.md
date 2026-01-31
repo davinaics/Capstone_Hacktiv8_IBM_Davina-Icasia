@@ -1,39 +1,39 @@
 # 🍽️ Restaurant Review Analysis with IBM Granite 🍽️
 Capstone Project – Hacktiv8 x IBM | by Davina Icasia
 
-📌 PROJECT OVERVIEW 📌
+## 📌 PROJECT OVERVIEW 
 
-🎯 Project Objective 🎯
+### 🎯 Project Objective 
 1. Automatically analyze restaurant customer reviews using the IBM Granite Large Language Model (LLM).
 2. Classify each review into sentiment categories: Positive, Negative, or Mixed.
 3. Identify key aspects frequently mentioned by customers, such as food, service, price, and cleanliness.
 4. Generate summarized insights and actionable suggestions to help restaurant owners enhance customer experience.
 
-🧠 Background 🧠
+### 🧠 Background 
 
 In today’s digital era, online restaurant reviews from any platforms play a crucial role in shaping public perception and customer purchasing decisions. These reviews contain not only expressions of customer satisfaction but also valuable insights regarding service quality, food, pricing, and cleanliness directly from the customer’s perspective. However, the unstructured nature and massive volume of these reviews make it difficult for business owners and analysts to extract insights effectively and objectively. This calls for an AI driven approach to automate the analysis of sentiment and extract key themes from customer feedback.
 
-❗ Specific Problems ❗
+### ❗ Specific Problems
 1. Customer reviews are unstructured, written in diverse natural language formats that are difficult to process using conventional techniques.
 2. Manual sentiment identification is time consuming and subject to human bias.
 3. Important aspects are often implicit, embedded in long and complex sentences, requiring advanced NLP models to extract them effectively.
 4. Lack of structured insights from the reviews makes it hard for restaurant owners to make data driven decisions.
 
-⚙️ Approach ⚙️
+### ⚙️ Approach 
 1. Data Cleaning
 2. Prompt Engineering with IBM Granite (Classification and Summarization)
 3. Model Used: Granite-3.3-8B-Instruct by IBM, accessed via Replicate API.
 
-📊 DATASET DESCRIPTION 📊
+## 📊 DATASET DESCRIPTION 
 1. Total columns: 2 columns
 - Review
 - Liked
 2. Total rows: 1000 rows
 3. Link Kaggle: https://www.kaggle.com/datasets/vigneshwarsofficial/reviews?resource=download
 
-🔢 ANALYSIS PROCESS 🔢
+## 🔢 ANALYSIS PROCESS 
 
-🧹 Data Cleaning 🧹
+### 🧹 Data Cleaning 
 1. Check for Missing Values 
 
 This loop goes through each column in the dataset. It prints the number of missing (null) values for each column. 
@@ -48,7 +48,7 @@ To standardize the text, multiple whitespace characters are replaced with a sing
 
 "Data cleaning ensures the dataset is consistent and reliable by handling missing values, removing duplicates, and standardizing text making it ready for accurate analysis."
 
-🧪 Lab 1 🧪
+### 🧪 Lab 1 
 1. Instalation and Setup
    
 Required libraries are installed and the IBM Granite model is set up via Replicate to enable LLM based analysis. 
@@ -83,7 +83,7 @@ A structured prompt is used to generate a summarized analysis of the reviews, in
 
 "These steps (1-8) aim to prepare the environment and test various prompt formats to optimize sentiment and aspect extraction using the IBM Granite model."
 
-🧪 Lab 2 🧪 
+### 🧪 Lab 2 🧪 
 1. Select 5 Random Reviews
    
 Five random non null reviews are selected from the dataset and formatted with bullet points and newline characters to prepare them for prompt input.
@@ -114,9 +114,9 @@ The summarization prompt is executed with each parameter set to observe how diff
 
 "These steps (1-7) aim to test how different parameter settings impact the quality of classification and summarization outputs using the IBM Granite model."
 
-💡 INSIGHTS & FINDINGS 💡
+## 💡 INSIGHTS & FINDINGS 
 
-🧪 Lab 1 🧪 
+### 🧪 Lab 1 
 1. Generating Basic Prompt
    
 The basic prompt correctly classified the reviews: 2 as positive and 1 as negative. The positive reviews show satisfaction and intent to return, while the negative review criticizes a specific server.
@@ -137,7 +137,7 @@ The formatted prompt clearly links each sentiment to specific aspects, identifyi
 
 The structured prompt output highlights negative sentiment, mainly due to bland food, poor service, and cost cutting complaints. It suggests improving food flavor, staff professionalism, and customer experience details like packaging.
 
-🧪 Lab 2 🧪 
+### 🧪 Lab 2 
 1. Generating Classification Prompt
 - Parameter Set 1
   
@@ -160,7 +160,7 @@ The summary shows mixed sentiment, with praise for food quality, especially the 
      
 The summary reflects mixed sentiment, with praise for food and service, but concerns about slow water refills and poor staff attentiveness. Suggestions include improving refill responsiveness, staff training, and addressing negative service perceptions to enhance customer experience.
 
-🔍 Interpretation 🔍
+### 🔍 Interpretation 
 1. Service aspect is the most frequently criticized issue
 
 Many negative reviews highlight problems with service, such as delayed water refills, lack of staff attentiveness, and unprofessional behavior.
@@ -179,23 +179,23 @@ Some customers enjoyed the food, but their overall experience was negative due t
 
 Why is this important? It shows that customer satisfaction is influenced not only by food, but also by other factors such as service, price, and cleanliness. All aspects must be managed consistently to deliver a complete and positive dining experience.
 
-📊 Visualization 📊
+### 📊 Visualization 
 
 The visualization shows the result of sentiment classification on restaurant reviews using the IBM Granite model with a basic prompt approach. All reviews in the dataset were automatically analyzed and categorized into three sentiment labels: Positive, Negative, and Mixed. The outcome indicates that most reviews are almost evenly distributed between positive and negative, while mixed reviews are significantly fewer, suggesting that customer opinions are generally clear. This process provides a fast and objective way to understand overall customer perception.
 
-📃 CONCLUSION & RECOMMENDATION ✅
+## 📃 CONCLUSION & RECOMMENDATION 
 
-📃 Conclusion 📃
+### 📃 Conclusion 
 
 Through a series of prompt engineering experiments using the IBM Granite model, this project demonstrated how sentiment classification and aspect extraction can be applied to restaurant reviews with varying levels of detail and structure.
 
-Lab 1 explored prompt formats (basic, refined, multitask, formatted, and structured) which progressively improved output clarity and aspect relevance.
+- Lab 1 explored prompt formats (basic, refined, multitask, formatted, and structured) which progressively improved output clarity and aspect relevance.
 
-Lab 2 examined how different generation parameters (top_k, top_p, max_tokens) affect model performance, showing their impact on classification and summarization quality.
+- Lab 2 examined how different generation parameters (top_k, top_p, max_tokens) affect model performance, showing their impact on classification and summarization quality.
 
 Additionally, a bar chart was generated to visualize the overall distribution of sentiment classifications (Positive, Negative, Mixed) using the basic prompt, providing a clear overview of customer sentiment across the dataset.
 
-✅ Recommendation ✅
+### ✅ Recommendation 
 
 1. Improve service quality through better staff training and clear SOPs
 2. Maintain and promote consistency in food quality
